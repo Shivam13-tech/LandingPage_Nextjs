@@ -22,8 +22,42 @@ export default function Home() {
             <button className="">See Destinations</button>
           </div>
         </div>
+        <div className="w-[90vw] md:w-[25vw]">
+          <img src="/Images/map.png" alt="map" />
+        </div>
+      </div>
+      <div className="relative mb-10 md:mb-60 flex justify-center items-center">
+        <div className="w-[90vw] md:w-[80vw]">
+          <img src="/Images/boat.png" alt="boat" />
+        </div>
+        <div className="hidden absolute top-60 mt-20 left-20 w-[90vw] md:w-[30vw] md:block">
+          <img src="/Images/camp.png" alt="camp" />
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center items-center mt-14">
         <div>
-          <Image width={400} height={150} src="/Images/map.png" alt="map" />
+          <h1 className="text-2xl  my-4 md:text-4xl text-center md:text-start">
+            Connect with fellow travelers{" "}
+          </h1>
+          <p className="w-[90vw] mb-2 mx-auto  md:w-[40vw] md:mx-0">
+            With Wandermate, you can easily book a variety of thrilling tours
+            and treks that cater to your adventurous spirit. But we dont stop
+            there. We understand that the best journeys are shared, which is why
+            we offer unique group chat features for each tour. Connect with
+            fellow travelers before you even pack your bags, share tips, plan
+            activities, and build lasting friendships that extend beyond the
+            trip.
+          </p>
+          <p className="w-[90vw] mb-2 mx-auto  md:w-[40vw] md:mx-0">
+            Our community-driven approach ensures that you are never alone on
+            your journey. Share tips, plan activities, and get to know your
+            travel companions before you even set foot on your adventure. With
+            wandermate, you are not just booking a trip; you are joining a
+            community.
+          </p>
+        </div>
+        <div className="w-[90vw] md:w-[35vw] md:ml-12 ">
+          <img src="/Images/Group.jpeg" alt="group" />
         </div>
       </div>
     </div>
